@@ -1,0 +1,23 @@
+{
+  "name": "jhi",
+  "version": "1.0.0",
+  "description": "NodeJS interpreter for the beautiful HQ9+ programming language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "p33r-positron",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p33r-positron/JHI.git"
+  },
+  "keywords": [
+    "jhi",
+    "HQ9+"
+  ],
+  "bugs": {
+    "url": "https://github.com/p33r-positron/JHI/issues"
+  },
+  "homepage": "https://github.com/p33r-positron/JHI#readme"
+}
