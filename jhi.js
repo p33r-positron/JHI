@@ -31,7 +31,7 @@ function parseLexRun(code){
 				for(let i = 99;i > 1;i--)
 				{
 					console.log(i.toString().concat(" bottles of beer on the wall, ".concat(i.toString()).concat(" bottles of beer.")));
-					console.log("Take one down and pass it around, ".concat(i.toString()).concat(" bottles of beer on the wall.\n"));
+					console.log("Take one down and pass it around, ".concat(i.toString()).concat(" bottles of beer on the wall.\r\n"));
 				};
 				console.log("1 bottle of beer on the wall, 1 bottle of beer.\nTake one down and pass it around, no more bottles of beer on the wall.\n\nGo to the store, buy some more,\n99 bottles of beer on the wall.")
 				token = "";
@@ -45,7 +45,7 @@ function parseLexRun(code){
 		};
 	});
 	if(debug)
-		console.log("\n-----DEBUG-----\nAccumulator Value: ".concat(accumulator));
+		console.log("\r\n-----DEBUG-----\nAccumulator Value: ".concat(accumulator));
 };
 
 function main()
